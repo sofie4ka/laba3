@@ -1,0 +1,131 @@
+.aside{
+    border: 2px solid rgba(255, 0, 24, 0.61); /* Рамка навколо зображення */
+    text-align: left;
+    font-size: calc(1em + 0.5vw);
+    align-self: center;
+}
+.aside a:hover{
+    color: #bb3d3d;
+}
+.aside a{
+    text-decoration:none;
+    color: black;
+    font-family: "Apple Braille";
+}
+
+header {
+    background-color: rgba(42, 131, 42, 0.84);
+    font-size: calc(1em + 1vw);
+    font-weight: bold;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+.logo{
+    display: inline-block;
+    width: calc(1em + 8vw);
+    vertical-align: middle;
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+.aside li{
+    list-style-type: none;
+}
+
+
+main img{
+    box-shadow: 10px 10px #2a832a;
+    border-radius: 13px;
+}
+main img:hover{
+    transform: scale(1.21);
+}
+table {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: calc(1em + 0.5vw);
+    overflow-x: auto;
+}
+p {
+    backdrop-filter: blur(15px);
+    font-weight: bold;
+    font-size: calc(1em + 0.5vw);
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px gray;
+    margin: 50px;
+}
+
+.w-90{
+    width: 90%;
+    max-height: 400px;
+}
+.lds-heart {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    transform: rotate(45deg);
+    transform-origin: 40px 40px;
+}
+.lds-heart div {
+    top: 32px;
+    left: 32px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: #000000;
+    animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.lds-heart div:after,
+.lds-heart div:before {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: #000000;
+}
+.lds-heart div:before {
+    left: -24px;
+    border-radius: 50% 0 0 50%;
+}
+.lds-heart div:after {
+    top: -24px;
+    border-radius: 50% 50% 0 0;
+}
+@keyframes lds-heart {
+    0% {
+        transform: scale(0.95);
+    }
+    5% {
+        transform: scale(1.1);
+    }
+    39% {
+        transform: scale(0.85);
+    }
+    45% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
+.log :hover{
+    text-decoration: none;
+}
+footer a {
+    text-decoration: none;
+    color: darkgreen;
+    font-size: calc(1em + 0.3vw);
+}
+
+h5 {
+    color: darkgreen;
+    font-size: calc(1em + 0.5vw);
+    margin-bottom: 0;
+}
